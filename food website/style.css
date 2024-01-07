@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+          
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(./image/All-White-HD-Background.png);
+
+    position :sticky ;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    border-bottom: 0px solid black;
+    box-shadow: 3px 3px 10px lightslategray;
+    
+
+   
+
+
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+    
+    
+}
+nav ul{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 20%;
+    
+}
+nav ul li{
+    display: inline-block;  
+    justify-content: space-between;
+    margin: 0 12px;
+    font-size: 20px;
+}
+
+.row{
+    margin: 20px 0;
+    margin-left: 50px;
+
+}
+
+.row img{
+    width: 200px;
+    height: 130px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.button{
+    margin-right: 25px;
+    background-color: rgb(231, 33, 253);
+    color: white;
+    border-radius: 20px;
+    padding: 0px 20px;
+    height: 40PX;
+    
+}
+
+.button a{
+    font-size: x-large;
+    text-decoration: none;
+    color: white;
+}
+.button:hover{
+       background-color: #f11111;
+}
+
+
+
+.head{
+    color: white;
+    
+}
+
+ul li:hover{
+    color: #f11111;
+    border-bottom: 2px solid #f11111 ;
+   
+}
+
+
+
+#about {
+    padding: 50px 0;
+    background: #f5f5f7;
+  }
+  
+  .about-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #about h2 {
+    font-size: 2.3rem;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  #about .small {
+    font-size: 1.2rem;
+    color: #666;
+    font-weight: 600;
+  }
+  
+  .about-img {
+    flex: 1 1 400px;
+    padding: 30px;
+    transform: translateX(150%);
+    animation: about-img-animation 1s ease-in-out forwards;
+  }
+  
+  @keyframes about-img-animation {
+    100% {
+      transform: translate(0);
+    }
+  }
+  
+  .about-text {
+    flex: 1 1 400px;
+    padding: 30px;
+    margin: auto;
+    transform: translate(-150%);
+    animation: about-text-animation 1s ease-in-out forwards;
+  }
+  
+  @keyframes about-text-animation {
+    100% {
+      transform: translate(0);
+    }
+  }
+  
+  .about-img img {
+    display: block;
+    height: 400px;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 20px;
+  }
+  
+
+.menuimage{
+    width: 100%;
+    height: 700px;
+   
+    background-image: url(./image/food\ 2.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+.tagline{
+    padding-top: 10%;
+    padding-left: 45%;
+
+}
+.tagline h2{
+    font-size: 100px;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+.tagline p{
+    font-size:xx-large;
+
+    color: #ddff00;
+    padding: 10px 20px;
+}
+.tagline .t{
+    color: chartreuse;
+}
+
+.tagline .u{
+    color: #f11111;
+}
+.card{
+       border: 2px solid black;
+       
+}
+.card a:hover{
+    color: black;
+    background-color: white;
+}
+.card a{
+    border-radius: 20px;
+    
+}
+
+.card:hover{
+    height: 300px;
+    background-color:rgb(172, 170, 170);
+    color: white;
+    box-shadow: 10px 10px 15px #ff7b00;
+
+    
+    
+}
+.card .card-body{
+    text-align: center;
+
+}
+.card3 .card{
+    border: 0px solid black;
+    border-radius: 20px;
+
+}
+.card2 .card{
+    border: 0px solid black;
+    border-radius: 20px;
+}
+.card1 .card{
+    border: 0px solid black;
+    border-radius: 20px;
+}
+.card img{
+    height: 200px;
+    width: 250px ;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+}
+.card1{
+    transform: translateX(150%);
+    animation: about-img-animation 1s ease-in-out forwards;
+}
+
+@keyframes card1-animation {
+    100% {
+      transform: translate(0);
+    }
+  }
+
+
+.foodmenu{
+    margin-top: 30px;
+}
+.foodmenu h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+    text-shadow: 5px 5px 10px rgb(137, 221, 238)
+}
+
+
+.card1,.card2,.card3{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+
+}
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.gallerypro {
+   margin: 50px 50px;
+   width: 400px;
+}
+.galleryname h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    text-shadow: 5px 5px 10px rgb(137, 221, 238)
+}
+.gallery img{
+    height: 250px;
+}
+.services{
+    background-color: #f5f5f7;
+}
+.service-name h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    margin-bottom: 70px;
+    text-shadow: 5px 5px 10px rgb(137, 221, 238)
+}
+
+.foodicons {
+       display: flex;
+       justify-content: center;
+
+       
+}
+
+.foodicons img{
+    height: 150px;
+    width: 200px;
+}
+
+
+/*----contact us----*/
+
+.contact h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
